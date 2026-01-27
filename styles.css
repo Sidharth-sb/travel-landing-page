@@ -1,0 +1,294 @@
+.navbar {
+    padding: 20px 60px;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: sans-serif;
+}
+
+.login {
+    color: black;
+    font-size: 16px;
+}
+
+.signup {
+    padding: 8px 18px;
+    border: 1px solid black;
+    border-radius: 6px;
+    color:black;
+    font-size: 15px;
+}
+
+.bg{
+    background-image: url(Decore.png);
+     background-repeat: no-repeat;
+}
+
+.desc{
+    display: flex;
+    padding-top: 90px;
+    align-items: center;
+}
+
+.text{
+width: 630px;
+height: 535px;
+opacity: 1;
+top: 217px;
+left: 148px;
+padding-left: 100px;
+padding-bottom: 100px;
+
+}
+
+.image{
+width: 753.87px;
+height: 700px;
+opacity: 1;
+top: 100px;
+left: 565px;
+
+}
+
+.cta {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+
+.btn-primary {
+  background: #f1a501;
+  color: white;
+  border: none;
+  padding: 15px 28px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.play-demo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+}
+
+.play-circle {
+  width: 50px;
+  height: 50px;
+  background: #df6951;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+
+.pae{
+    padding-left: 700px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.pae1{
+    padding-left: 610px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.services
+ {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.service-card {
+    width: 230px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+}
+
+.service-img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.service-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    font-size: 14px;
+    color: #555;
+}
+
+.des{
+    display: flex;
+}
+
+#sell{
+    padding-top: 50px;
+    padding-left: 700px;
+    font-size: 30px;
+}
+
+#ti{
+    padding-left: 670px;
+    font-size: 30px;
+}
+
+.des{
+    width: 1000px;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+
+.gr{
+    padding-left: 70px;
+}
+
+.gr1{
+    padding-left: 70px;
+}
+
+.trip{
+    padding-left: 300px;
+}
+
+.test{
+    padding-left: 100px;
+    
+}
+
+#test1{
+    font-size: 50px;
+}
+
+.test2{
+    padding-left: 300px ;
+}
+
+.logo1{
+    margin-left: 250px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.subscribe {
+  background: #f7f5ff;
+  padding: 60px 20px;
+  text-align: center;
+  border-radius: 20px;
+  max-width: 1100px;
+  margin: 40px auto;
+}
+
+.subscribe h2 {
+  color: #5e6282;
+  font-size: 26px;
+  margin-bottom: 30px;
+}
+
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.subscribe-form input {
+  padding: 15px 20px;
+  width: 300px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+.subscribe-form button {
+  padding: 15px 30px;
+  border-radius: 10px;
+  border: none;
+  background: #ff7d68;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 60px 80px;
+  gap: 30px;
+}
+
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-col h4 {
+  font-weight: bold;
+}
+
+.footer-col a {
+  text-decoration: none;
+  color: #5e6282;
+  font-size: 14px;
+}
+
+.brand h3 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.brand p {
+  color: #5e6282;
+  font-size: 14px;
+  max-width: 200px;
+}
+
+.app img {
+  width: 120px;
+  margin-top: 10px;
+}
